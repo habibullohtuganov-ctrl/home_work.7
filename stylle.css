@@ -214,6 +214,78 @@
   padding: 0px 30px;
 }
 
+.hll {
+  width: 100%;
+  height: 420px;
+  background-color: rgb(37, 43, 66);
+  color: white;
+  padding-top: 30px;
+}
+.hll .hll1 {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.hll .hll1 h1 {
+  font-size: 46px;
+  font-family: sans-serif;
+}
+.hll .hll1 p {
+  line-height: 22px;
+  color: white;
+  font-size: 19px;
+  font-family: sans-serif;
+}
+.hll .hll2 {
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
+}
+.hll .hll3 {
+  width: 46%;
+  height: 200px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  color: black;
+  padding: 30px;
+}
+.hll .hll3 p {
+  color: rgb(124, 123, 123);
+  text-align: start;
+}
+.hll .hll3 h3 {
+  color: rgb(35, 166, 240);
+  text-align: start;
+  font-size: 25px;
+  padding-top: 10px;
+}
+.hll .hll5 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+.hll .hll4 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.hll .hll5 button {
+  padding: 20px 30px;
+  border: none;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  background-color: rgb(35, 166, 240);
+  border-radius: 7px;
+  color: white;
+}
+
 @media (max-width: 610px) {
   .all {
     height: auto;
@@ -265,6 +337,7 @@
   }
   .xll3 {
     border: 2px solid rgb(37, 43, 66);
+    width: 90%;
   }
   .tll {
     height: auto;
@@ -281,5 +354,15 @@
   }
   .tll .img1 {
     background-color: rgb(37, 43, 66);
+  }
+  .hll {
+    height: auto;
+  }
+  .hll .hll2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .hll .hll3 {
+    width: 84%;
   }
 }/*# sourceMappingURL=stylle.css.map */

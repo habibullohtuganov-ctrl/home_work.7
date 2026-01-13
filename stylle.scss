@@ -212,6 +212,79 @@
         padding: 0px 30px;
     }
 }
+.hll{
+    width: 100%;
+    height: 420px;
+    background-color: rgba(37, 43, 66, 1);
+    color: white;
+    padding-top: 30px;
+    .hll1{
+        max-width: 1200px;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .hll1 h1{
+        font-size: 46px;
+        font-family: sans-serif;
+    }
+        .hll1 p{
+        line-height: 22px;
+        color: white;
+        font-size: 19px;
+        font-family: sans-serif;
+    }
+    .hll2{
+        display: flex;
+        gap: 20px;
+        padding-top: 20px;
+    }
+    .hll3{
+        width: 46%;
+        height: 200px;
+        background-color: white;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        color: black;
+        padding: 30px;
+    }
+    .hll3 p{
+        color: rgb(124, 123, 123);
+        text-align: start;
+    }
+    .hll3 h3{
+        color: rgba(35, 166, 240, 1);
+        text-align: start;
+        font-size: 25px;
+        padding-top: 10px;
+    }
+    .hll5{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    .hll4{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        
+    }
+    .hll5 button{
+        padding: 20px 30px;
+        border: none;
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        background-color: rgba(35, 166, 240, 1);
+        border-radius: 7px;
+        color: white;
+
+    }
+}
 @media(max-width:610px)
 {
     .all{
@@ -263,6 +336,7 @@
     }
     .xll3{
         border: 2px solid rgba(37, 43, 66, 1);
+        width: 90%;
     }
     .tll{
         height: auto;
@@ -278,6 +352,16 @@
         }
         .img1{
            background-color: rgba(37, 43, 66, 1);
+        }
+    }
+    .hll{
+        height: auto;
+        .hll2{
+            display: flex;
+            flex-direction: column;
+        }
+        .hll3{
+            width: 84%;
         }
     }
 }
