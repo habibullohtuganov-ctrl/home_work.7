@@ -314,6 +314,50 @@
   line-height: 23px;
 }
 
+.vll {
+  width: 100%;
+  height: 320px;
+  background-color: rgb(37, 43, 66);
+  color: white;
+  margin-top: 50px;
+}
+.vll .vll1 {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 70px 0px;
+}
+.vll .vll2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: start;
+}
+.vll .vll4 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.vll .vll5 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.pll {
+  width: 100%;
+  height: 30px;
+  color: rgba(0, 0, 0, 0.518);
+  margin-top: 50px;
+}
+.pll .pll1 {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
 @media (max-width: 610px) {
   .all {
     height: auto;
@@ -405,5 +449,18 @@
     width: 90%;
     text-align: center;
     margin-left: 20px;
+  }
+  .vll {
+    height: auto;
+  }
+  .vll .vll1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .vll .vll2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
   }
 }/*# sourceMappingURL=stylle.css.map */
