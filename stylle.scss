@@ -274,7 +274,7 @@
         
     }
     .hll5 button{
-        padding: 20px 30px;
+        padding: 20px 40px;
         border: none;
         display: flex;
         gap: 5px;
@@ -283,6 +283,34 @@
         border-radius: 7px;
         color: white;
 
+
+    }
+}
+.bll{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(37, 43, 66, 1);
+    color: white;
+    padding-top: 100px;
+    .bll1{
+        max-width: 1200px;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+    }
+    .bll2{
+        text-align: start;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .bll2 h1{
+        font-size: 46px;
+    }
+    .bll2 p{
+        font-size: 18px;
+        line-height: 23px;
     }
 }
 @media(max-width:610px)
@@ -362,6 +390,19 @@
         }
         .hll3{
             width: 84%;
+        }
+    }
+    .bll{
+        height: auto;
+        .bll1{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        .bll2{
+            width: 90%;
+            text-align: center;
+            margin-left: 20px;
         }
     }
 }
