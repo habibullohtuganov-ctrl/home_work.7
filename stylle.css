@@ -126,6 +126,53 @@
   color: white;
 }
 
+.sll {
+  width: 100%;
+  height: 650px;
+  background-color: rgb(37, 43, 66);
+  color: white;
+  padding-top: 30px;
+}
+.sll .sll1 {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sll .sll1 h1 {
+  font-size: 46px;
+  font-family: sans-serif;
+}
+.sll .sll1 p {
+  line-height: 22px;
+  color: white;
+  font-size: 19px;
+  font-family: sans-serif;
+}
+.sll .sll2 {
+  width: 78%;
+  height: 280px;
+  margin: auto;
+  text-align: center;
+  background-color: white;
+  border-radius: 3px;
+  margin-top: 50px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  padding: 50px 0px;
+}
+.sll .sll2 p {
+  color: rgba(0, 0, 0, 0.488);
+}
+.sll .sll2 h3 {
+  font-family: sans-serif;
+}
+
 @media (max-width: 610px) {
   .all {
     height: auto;
